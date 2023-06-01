@@ -25,6 +25,17 @@ to go to your newly created project.
 
 Of course you should explore around the project structure, but the best place to start with your application code is in `src/app.rs`.
 
+## Testing
+
+### Corepack
+
+To use yarn, install and enable corepack, see https://github.com/nodejs/corepack
+
+Install Playwright
+```sh
+yarn playwright install
+```
+
 ## Running your project
 
 `cargo leptos watch`
